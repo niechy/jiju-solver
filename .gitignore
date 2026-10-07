@@ -1,0 +1,44 @@
+# 编译产物
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.test
+
+# Go 工作区与本地依赖
+go.work
+go.work.sum
+/vendor/
+
+# 覆盖率 / 性能剖析产物
+*.prof
+*.pprof
+coverage.txt
+coverage.out
+*.cover
+
+# 评测与搜索的本地输出
+/out/
+/results/
+*.jsonl
+*.jsonl.gz
+*.log
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 注意: 不要整体忽略 *.json —— data/ 下的词库与示例解锁快照是仓库内容。
+# 将来若需忽略本地 JSON 输出, 请写具体路径 (如 /out/*.json), 不要写 *.json。

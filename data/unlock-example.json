@@ -1,0 +1,19 @@
+{
+  "_说明": "示例账号解锁快照。account_ministers / country_ministers 是 大臣ID -> 星级, active_policies 是已激活的政策 ID 列表。",
+  "_用哪个": "配合 go run ./cmd/sim -unlock data/unlock-example.json 使用, 会把整库 573 句收敛成当前账号真正可抽的那一批。",
+  "account_ministers": {
+    "13": 3,
+    "16": 2,
+    "41": 1,
+    "101": 2,
+    "106": 1,
+    "110": 2,
+    "112": 1,
+    "117": 3,
+    "217": 1
+  },
+  "country_ministers": {
+    "217": 2
+  },
+  "active_policies": [2467, 2468, 2469, 2476, 2477]
+}
