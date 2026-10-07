@@ -11,6 +11,7 @@
 
 - 规则模型与算法细节：[docs/algorithm.md](docs/algorithm.md)
 - 被实测否掉的方向与引用数字时的陷阱：[docs/failures.md](docs/failures.md) ← **先读这个**
+- 这些东西是怎么被研究出来的（报告 + 原始证据 + 复现工具）：[docs/research/](docs/research/README.md)
 
 ---
 

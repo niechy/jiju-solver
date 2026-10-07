@@ -1,0 +1,5815 @@
+{
+  "action_policies": false,
+  "base": "default",
+  "baseline": {
+    "changed": 31.085000000000026,
+    "mean": 43.330000000000034,
+    "p5": 29,
+    "p50": 43,
+    "p95": 61,
+    "paid": 28.77500000000001,
+    "shiyi_mean": 473.675
+  },
+  "budget_ns": 0,
+  "ci95_normal_approx": [
+    4.179069225156207,
+    7.470930774843794
+  ],
+  "cost": 8,
+  "critic": "",
+  "critic_all_actions": false,
+  "critic_sha256": "",
+  "delta": 5.825,
+  "episodes": [
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 39482400,
+        "Shiyi": 505,
+        "Turns": 45,
+        "Paid": 28,
+        "Changes": 36,
+        "Decisions": 141,
+        "PlanningNS": 3665743300,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 264389200,
+        "Shiyi": 470,
+        "Turns": 42,
+        "Paid": 38,
+        "Changes": 9,
+        "Decisions": 137,
+        "PlanningNS": 14681933000,
+        "PlanningSamples": 17536,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 33522500,
+        "Shiyi": 500,
+        "Turns": 47,
+        "Paid": 28,
+        "Changes": 35,
+        "Decisions": 116,
+        "PlanningNS": 2663947300,
+        "PlanningSamples": 14848,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 245997400,
+        "Shiyi": 465,
+        "Turns": 41,
+        "Paid": 37,
+        "Changes": 20,
+        "Decisions": 129,
+        "PlanningNS": 13760248400,
+        "PlanningSamples": 16512,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 37710300,
+        "Shiyi": 515,
+        "Turns": 47,
+        "Paid": 17,
+        "Changes": 31,
+        "Decisions": 110,
+        "PlanningNS": 2587072800,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250413100,
+        "Shiyi": 640,
+        "Turns": 60,
+        "Paid": 31,
+        "Changes": 18,
+        "Decisions": 155,
+        "PlanningNS": 17554608400,
+        "PlanningSamples": 19840,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 37751900,
+        "Shiyi": 415,
+        "Turns": 37,
+        "Paid": 32,
+        "Changes": 27,
+        "Decisions": 109,
+        "PlanningNS": 2258448500,
+        "PlanningSamples": 13952,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244410300,
+        "Shiyi": 385,
+        "Turns": 34,
+        "Paid": 25,
+        "Changes": 9,
+        "Decisions": 111,
+        "PlanningNS": 12810364400,
+        "PlanningSamples": 14208,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 36287000,
+        "Shiyi": 520,
+        "Turns": 48,
+        "Paid": 34,
+        "Changes": 36,
+        "Decisions": 131,
+        "PlanningNS": 3332065300,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 265996600,
+        "Shiyi": 530,
+        "Turns": 48,
+        "Paid": 22,
+        "Changes": 20,
+        "Decisions": 114,
+        "PlanningNS": 10769451800,
+        "PlanningSamples": 14592,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 36593500,
+        "Shiyi": 545,
+        "Turns": 50,
+        "Paid": 32,
+        "Changes": 35,
+        "Decisions": 135,
+        "PlanningNS": 3447212600,
+        "PlanningSamples": 17280,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 254459500,
+        "Shiyi": 500,
+        "Turns": 45,
+        "Paid": 41,
+        "Changes": 22,
+        "Decisions": 147,
+        "PlanningNS": 16220796300,
+        "PlanningSamples": 18816,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 39809000,
+        "Shiyi": 445,
+        "Turns": 40,
+        "Paid": 33,
+        "Changes": 26,
+        "Decisions": 128,
+        "PlanningNS": 3320371400,
+        "PlanningSamples": 16384,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 251657600,
+        "Shiyi": 630,
+        "Turns": 58,
+        "Paid": 35,
+        "Changes": 25,
+        "Decisions": 176,
+        "PlanningNS": 19193665900,
+        "PlanningSamples": 22528,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 36090400,
+        "Shiyi": 490,
+        "Turns": 44,
+        "Paid": 30,
+        "Changes": 35,
+        "Decisions": 110,
+        "PlanningNS": 2261118800,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 231987300,
+        "Shiyi": 625,
+        "Turns": 58,
+        "Paid": 21,
+        "Changes": 18,
+        "Decisions": 150,
+        "PlanningNS": 16372838200,
+        "PlanningSamples": 19200,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 35531500,
+        "Shiyi": 405,
+        "Turns": 38,
+        "Paid": 35,
+        "Changes": 28,
+        "Decisions": 108,
+        "PlanningNS": 2280389900,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 291340000,
+        "Shiyi": 495,
+        "Turns": 45,
+        "Paid": 34,
+        "Changes": 16,
+        "Decisions": 153,
+        "PlanningNS": 20792409100,
+        "PlanningSamples": 19584,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 42723700,
+        "Shiyi": 665,
+        "Turns": 62,
+        "Paid": 21,
+        "Changes": 42,
+        "Decisions": 169,
+        "PlanningNS": 4964429100,
+        "PlanningSamples": 21632,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 3,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 265900200,
+        "Shiyi": 670,
+        "Turns": 64,
+        "Paid": 28,
+        "Changes": 16,
+        "Decisions": 160,
+        "PlanningNS": 20634601400,
+        "PlanningSamples": 20096,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 39774700,
+        "Shiyi": 490,
+        "Turns": 44,
+        "Paid": 37,
+        "Changes": 25,
+        "Decisions": 130,
+        "PlanningNS": 3386107800,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 267056500,
+        "Shiyi": 405,
+        "Turns": 35,
+        "Paid": 34,
+        "Changes": 11,
+        "Decisions": 115,
+        "PlanningNS": 15798988900,
+        "PlanningSamples": 14720,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 36942900,
+        "Shiyi": 510,
+        "Turns": 46,
+        "Paid": 29,
+        "Changes": 37,
+        "Decisions": 123,
+        "PlanningNS": 2860543000,
+        "PlanningSamples": 15744,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 257732600,
+        "Shiyi": 585,
+        "Turns": 54,
+        "Paid": 32,
+        "Changes": 16,
+        "Decisions": 166,
+        "PlanningNS": 19097386100,
+        "PlanningSamples": 21248,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 34142800,
+        "Shiyi": 540,
+        "Turns": 50,
+        "Paid": 22,
+        "Changes": 31,
+        "Decisions": 123,
+        "PlanningNS": 3133386400,
+        "PlanningSamples": 15744,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 261396700,
+        "Shiyi": 450,
+        "Turns": 40,
+        "Paid": 22,
+        "Changes": 20,
+        "Decisions": 119,
+        "PlanningNS": 14009644100,
+        "PlanningSamples": 15232,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 38627900,
+        "Shiyi": 510,
+        "Turns": 47,
+        "Paid": 26,
+        "Changes": 37,
+        "Decisions": 115,
+        "PlanningNS": 2546928000,
+        "PlanningSamples": 14720,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263745500,
+        "Shiyi": 465,
+        "Turns": 41,
+        "Paid": 34,
+        "Changes": 15,
+        "Decisions": 125,
+        "PlanningNS": 14219182900,
+        "PlanningSamples": 16000,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 36560400,
+        "Shiyi": 500,
+        "Turns": 45,
+        "Paid": 55,
+        "Changes": 36,
+        "Decisions": 152,
+        "PlanningNS": 3486302200,
+        "PlanningSamples": 19456,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 257781200,
+        "Shiyi": 580,
+        "Turns": 53,
+        "Paid": 27,
+        "Changes": 27,
+        "Decisions": 144,
+        "PlanningNS": 17081291200,
+        "PlanningSamples": 18432,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 40269100,
+        "Shiyi": 495,
+        "Turns": 46,
+        "Paid": 34,
+        "Changes": 24,
+        "Decisions": 127,
+        "PlanningNS": 2820540300,
+        "PlanningSamples": 16256,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248048500,
+        "Shiyi": 380,
+        "Turns": 32,
+        "Paid": 29,
+        "Changes": 12,
+        "Decisions": 101,
+        "PlanningNS": 12160145900,
+        "PlanningSamples": 12928,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55282000,
+        "Shiyi": 605,
+        "Turns": 56,
+        "Paid": 17,
+        "Changes": 29,
+        "Decisions": 132,
+        "PlanningNS": 4313152700,
+        "PlanningSamples": 16896,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 243882000,
+        "Shiyi": 520,
+        "Turns": 49,
+        "Paid": 28,
+        "Changes": 15,
+        "Decisions": 132,
+        "PlanningNS": 13817661200,
+        "PlanningSamples": 16896,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54666700,
+        "Shiyi": 505,
+        "Turns": 48,
+        "Paid": 34,
+        "Changes": 38,
+        "Decisions": 137,
+        "PlanningNS": 4528862500,
+        "PlanningSamples": 17536,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 241249500,
+        "Shiyi": 615,
+        "Turns": 57,
+        "Paid": 21,
+        "Changes": 16,
+        "Decisions": 146,
+        "PlanningNS": 14139745100,
+        "PlanningSamples": 18688,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49971700,
+        "Shiyi": 440,
+        "Turns": 41,
+        "Paid": 28,
+        "Changes": 35,
+        "Decisions": 114,
+        "PlanningNS": 3526461100,
+        "PlanningSamples": 14592,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 251807800,
+        "Shiyi": 580,
+        "Turns": 53,
+        "Paid": 18,
+        "Changes": 17,
+        "Decisions": 119,
+        "PlanningNS": 12391516400,
+        "PlanningSamples": 15232,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47746000,
+        "Shiyi": 400,
+        "Turns": 36,
+        "Paid": 19,
+        "Changes": 18,
+        "Decisions": 75,
+        "PlanningNS": 2269185200,
+        "PlanningSamples": 9600,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 1,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 241531800,
+        "Shiyi": 660,
+        "Turns": 63,
+        "Paid": 23,
+        "Changes": 20,
+        "Decisions": 149,
+        "PlanningNS": 14744672000,
+        "PlanningSamples": 18944,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49928300,
+        "Shiyi": 495,
+        "Turns": 46,
+        "Paid": 29,
+        "Changes": 32,
+        "Decisions": 120,
+        "PlanningNS": 3467413700,
+        "PlanningSamples": 15360,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 238196800,
+        "Shiyi": 405,
+        "Turns": 36,
+        "Paid": 14,
+        "Changes": 14,
+        "Decisions": 99,
+        "PlanningNS": 9477993600,
+        "PlanningSamples": 12672,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47197900,
+        "Shiyi": 595,
+        "Turns": 54,
+        "Paid": 22,
+        "Changes": 30,
+        "Decisions": 140,
+        "PlanningNS": 4213803700,
+        "PlanningSamples": 17920,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 256206100,
+        "Shiyi": 525,
+        "Turns": 51,
+        "Paid": 28,
+        "Changes": 19,
+        "Decisions": 145,
+        "PlanningNS": 17314415700,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48328200,
+        "Shiyi": 405,
+        "Turns": 37,
+        "Paid": 37,
+        "Changes": 34,
+        "Decisions": 111,
+        "PlanningNS": 3201734500,
+        "PlanningSamples": 14208,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 249263200,
+        "Shiyi": 560,
+        "Turns": 50,
+        "Paid": 35,
+        "Changes": 14,
+        "Decisions": 157,
+        "PlanningNS": 18910135700,
+        "PlanningSamples": 20096,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51512200,
+        "Shiyi": 430,
+        "Turns": 39,
+        "Paid": 37,
+        "Changes": 33,
+        "Decisions": 108,
+        "PlanningNS": 3193560000,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 252282700,
+        "Shiyi": 440,
+        "Turns": 42,
+        "Paid": 15,
+        "Changes": 8,
+        "Decisions": 100,
+        "PlanningNS": 12386310100,
+        "PlanningSamples": 12800,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 58960100,
+        "Shiyi": 620,
+        "Turns": 61,
+        "Paid": 18,
+        "Changes": 40,
+        "Decisions": 145,
+        "PlanningNS": 5244538100,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 249485200,
+        "Shiyi": 500,
+        "Turns": 46,
+        "Paid": 26,
+        "Changes": 12,
+        "Decisions": 107,
+        "PlanningNS": 10907595400,
+        "PlanningSamples": 13696,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49794000,
+        "Shiyi": 650,
+        "Turns": 60,
+        "Paid": 25,
+        "Changes": 45,
+        "Decisions": 162,
+        "PlanningNS": 5266576100,
+        "PlanningSamples": 20736,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 249492800,
+        "Shiyi": 505,
+        "Turns": 45,
+        "Paid": 29,
+        "Changes": 19,
+        "Decisions": 139,
+        "PlanningNS": 19594862700,
+        "PlanningSamples": 17792,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53984700,
+        "Shiyi": 440,
+        "Turns": 41,
+        "Paid": 20,
+        "Changes": 32,
+        "Decisions": 107,
+        "PlanningNS": 3315672400,
+        "PlanningSamples": 13696,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 246311200,
+        "Shiyi": 520,
+        "Turns": 49,
+        "Paid": 20,
+        "Changes": 15,
+        "Decisions": 118,
+        "PlanningNS": 13014675900,
+        "PlanningSamples": 15104,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50132100,
+        "Shiyi": 320,
+        "Turns": 28,
+        "Paid": 35,
+        "Changes": 31,
+        "Decisions": 99,
+        "PlanningNS": 3017320700,
+        "PlanningSamples": 12672,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 267094200,
+        "Shiyi": 575,
+        "Turns": 54,
+        "Paid": 42,
+        "Changes": 22,
+        "Decisions": 171,
+        "PlanningNS": 19690498600,
+        "PlanningSamples": 21888,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53941300,
+        "Shiyi": 560,
+        "Turns": 50,
+        "Paid": 30,
+        "Changes": 31,
+        "Decisions": 125,
+        "PlanningNS": 4155026100,
+        "PlanningSamples": 16000,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 256077200,
+        "Shiyi": 455,
+        "Turns": 44,
+        "Paid": 37,
+        "Changes": 14,
+        "Decisions": 143,
+        "PlanningNS": 15557279400,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 56822200,
+        "Shiyi": 540,
+        "Turns": 50,
+        "Paid": 26,
+        "Changes": 38,
+        "Decisions": 147,
+        "PlanningNS": 5216751800,
+        "PlanningSamples": 18816,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 268087900,
+        "Shiyi": 465,
+        "Turns": 44,
+        "Paid": 31,
+        "Changes": 19,
+        "Decisions": 145,
+        "PlanningNS": 18336143700,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50131800,
+        "Shiyi": 475,
+        "Turns": 44,
+        "Paid": 23,
+        "Changes": 27,
+        "Decisions": 97,
+        "PlanningNS": 3064842000,
+        "PlanningSamples": 12416,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 252754000,
+        "Shiyi": 495,
+        "Turns": 46,
+        "Paid": 32,
+        "Changes": 17,
+        "Decisions": 142,
+        "PlanningNS": 16063259400,
+        "PlanningSamples": 18176,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53665100,
+        "Shiyi": 575,
+        "Turns": 53,
+        "Paid": 33,
+        "Changes": 30,
+        "Decisions": 145,
+        "PlanningNS": 4629150000,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 265887900,
+        "Shiyi": 455,
+        "Turns": 42,
+        "Paid": 32,
+        "Changes": 18,
+        "Decisions": 133,
+        "PlanningNS": 14824269200,
+        "PlanningSamples": 17024,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 59482600,
+        "Shiyi": 425,
+        "Turns": 38,
+        "Paid": 37,
+        "Changes": 32,
+        "Decisions": 101,
+        "PlanningNS": 3483280000,
+        "PlanningSamples": 12928,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 2,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 249085000,
+        "Shiyi": 670,
+        "Turns": 64,
+        "Paid": 15,
+        "Changes": 21,
+        "Decisions": 148,
+        "PlanningNS": 16254497200,
+        "PlanningSamples": 18688,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50091300,
+        "Shiyi": 490,
+        "Turns": 47,
+        "Paid": 18,
+        "Changes": 34,
+        "Decisions": 116,
+        "PlanningNS": 3951929800,
+        "PlanningSamples": 14848,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244640700,
+        "Shiyi": 520,
+        "Turns": 50,
+        "Paid": 23,
+        "Changes": 14,
+        "Decisions": 138,
+        "PlanningNS": 14855120200,
+        "PlanningSamples": 17664,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50347400,
+        "Shiyi": 360,
+        "Turns": 32,
+        "Paid": 49,
+        "Changes": 37,
+        "Decisions": 118,
+        "PlanningNS": 3476222200,
+        "PlanningSamples": 15104,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 245461700,
+        "Shiyi": 430,
+        "Turns": 41,
+        "Paid": 31,
+        "Changes": 16,
+        "Decisions": 114,
+        "PlanningNS": 12435629600,
+        "PlanningSamples": 14592,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53458300,
+        "Shiyi": 500,
+        "Turns": 45,
+        "Paid": 27,
+        "Changes": 36,
+        "Decisions": 124,
+        "PlanningNS": 3902632900,
+        "PlanningSamples": 15872,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 242256800,
+        "Shiyi": 435,
+        "Turns": 42,
+        "Paid": 24,
+        "Changes": 16,
+        "Decisions": 132,
+        "PlanningNS": 14457554400,
+        "PlanningSamples": 16896,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48681400,
+        "Shiyi": 375,
+        "Turns": 32,
+        "Paid": 30,
+        "Changes": 24,
+        "Decisions": 90,
+        "PlanningNS": 2850398700,
+        "PlanningSamples": 11520,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 261442900,
+        "Shiyi": 530,
+        "Turns": 47,
+        "Paid": 37,
+        "Changes": 23,
+        "Decisions": 143,
+        "PlanningNS": 16815137200,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 56613500,
+        "Shiyi": 535,
+        "Turns": 50,
+        "Paid": 14,
+        "Changes": 35,
+        "Decisions": 124,
+        "PlanningNS": 4288510400,
+        "PlanningSamples": 15872,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 7,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 252272500,
+        "Shiyi": 685,
+        "Turns": 67,
+        "Paid": 17,
+        "Changes": 18,
+        "Decisions": 148,
+        "PlanningNS": 17452105400,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46589900,
+        "Shiyi": 435,
+        "Turns": 41,
+        "Paid": 27,
+        "Changes": 27,
+        "Decisions": 111,
+        "PlanningNS": 3384249200,
+        "PlanningSamples": 14208,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 242267900,
+        "Shiyi": 265,
+        "Turns": 25,
+        "Paid": 26,
+        "Changes": 6,
+        "Decisions": 82,
+        "PlanningNS": 10180933600,
+        "PlanningSamples": 10496,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55900200,
+        "Shiyi": 565,
+        "Turns": 53,
+        "Paid": 36,
+        "Changes": 41,
+        "Decisions": 167,
+        "PlanningNS": 5955708400,
+        "PlanningSamples": 21376,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 270469900,
+        "Shiyi": 655,
+        "Turns": 61,
+        "Paid": 29,
+        "Changes": 24,
+        "Decisions": 164,
+        "PlanningNS": 17418271000,
+        "PlanningSamples": 20992,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48286700,
+        "Shiyi": 355,
+        "Turns": 32,
+        "Paid": 46,
+        "Changes": 29,
+        "Decisions": 118,
+        "PlanningNS": 3220874100,
+        "PlanningSamples": 15104,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 247600200,
+        "Shiyi": 580,
+        "Turns": 53,
+        "Paid": 32,
+        "Changes": 24,
+        "Decisions": 150,
+        "PlanningNS": 14389388000,
+        "PlanningSamples": 19200,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49799900,
+        "Shiyi": 615,
+        "Turns": 58,
+        "Paid": 20,
+        "Changes": 28,
+        "Decisions": 130,
+        "PlanningNS": 3976308400,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 216958800,
+        "Shiyi": 580,
+        "Turns": 55,
+        "Paid": 22,
+        "Changes": 24,
+        "Decisions": 141,
+        "PlanningNS": 13094287300,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 44673400,
+        "Shiyi": 415,
+        "Turns": 36,
+        "Paid": 29,
+        "Changes": 30,
+        "Decisions": 108,
+        "PlanningNS": 3229768400,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 245779700,
+        "Shiyi": 625,
+        "Turns": 58,
+        "Paid": 28,
+        "Changes": 18,
+        "Decisions": 149,
+        "PlanningNS": 17275451800,
+        "PlanningSamples": 19072,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49125100,
+        "Shiyi": 395,
+        "Turns": 34,
+        "Paid": 24,
+        "Changes": 27,
+        "Decisions": 92,
+        "PlanningNS": 2694672100,
+        "PlanningSamples": 11776,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 240351100,
+        "Shiyi": 560,
+        "Turns": 53,
+        "Paid": 27,
+        "Changes": 15,
+        "Decisions": 146,
+        "PlanningNS": 15450988700,
+        "PlanningSamples": 18688,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52601000,
+        "Shiyi": 460,
+        "Turns": 42,
+        "Paid": 18,
+        "Changes": 33,
+        "Decisions": 112,
+        "PlanningNS": 3379694900,
+        "PlanningSamples": 14336,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 243294000,
+        "Shiyi": 635,
+        "Turns": 59,
+        "Paid": 25,
+        "Changes": 15,
+        "Decisions": 159,
+        "PlanningNS": 18867893200,
+        "PlanningSamples": 20352,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51564600,
+        "Shiyi": 395,
+        "Turns": 35,
+        "Paid": 20,
+        "Changes": 26,
+        "Decisions": 91,
+        "PlanningNS": 3058465300,
+        "PlanningSamples": 11648,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 252658100,
+        "Shiyi": 465,
+        "Turns": 44,
+        "Paid": 28,
+        "Changes": 17,
+        "Decisions": 117,
+        "PlanningNS": 13875604800,
+        "PlanningSamples": 14976,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50238600,
+        "Shiyi": 395,
+        "Turns": 33,
+        "Paid": 48,
+        "Changes": 29,
+        "Decisions": 113,
+        "PlanningNS": 3597355900,
+        "PlanningSamples": 14464,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 242735700,
+        "Shiyi": 405,
+        "Turns": 36,
+        "Paid": 34,
+        "Changes": 18,
+        "Decisions": 119,
+        "PlanningNS": 13349354500,
+        "PlanningSamples": 15232,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49367700,
+        "Shiyi": 410,
+        "Turns": 38,
+        "Paid": 28,
+        "Changes": 33,
+        "Decisions": 104,
+        "PlanningNS": 3158904400,
+        "PlanningSamples": 13312,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 255306000,
+        "Shiyi": 620,
+        "Turns": 56,
+        "Paid": 22,
+        "Changes": 19,
+        "Decisions": 157,
+        "PlanningNS": 15016405500,
+        "PlanningSamples": 20096,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51947600,
+        "Shiyi": 455,
+        "Turns": 42,
+        "Paid": 32,
+        "Changes": 29,
+        "Decisions": 113,
+        "PlanningNS": 3579391900,
+        "PlanningSamples": 14464,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 249245900,
+        "Shiyi": 600,
+        "Turns": 57,
+        "Paid": 23,
+        "Changes": 24,
+        "Decisions": 172,
+        "PlanningNS": 15743052700,
+        "PlanningSamples": 22016,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46055700,
+        "Shiyi": 305,
+        "Turns": 27,
+        "Paid": 34,
+        "Changes": 21,
+        "Decisions": 76,
+        "PlanningNS": 2150456600,
+        "PlanningSamples": 9728,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248460400,
+        "Shiyi": 485,
+        "Turns": 45,
+        "Paid": 28,
+        "Changes": 17,
+        "Decisions": 125,
+        "PlanningNS": 13178739500,
+        "PlanningSamples": 16000,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46108300,
+        "Shiyi": 510,
+        "Turns": 46,
+        "Paid": 31,
+        "Changes": 34,
+        "Decisions": 124,
+        "PlanningNS": 3775384000,
+        "PlanningSamples": 15872,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 251932800,
+        "Shiyi": 405,
+        "Turns": 36,
+        "Paid": 40,
+        "Changes": 16,
+        "Decisions": 122,
+        "PlanningNS": 13820622700,
+        "PlanningSamples": 15616,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 45957800,
+        "Shiyi": 360,
+        "Turns": 34,
+        "Paid": 25,
+        "Changes": 18,
+        "Decisions": 92,
+        "PlanningNS": 2788539700,
+        "PlanningSamples": 11776,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 255355000,
+        "Shiyi": 660,
+        "Turns": 62,
+        "Paid": 30,
+        "Changes": 32,
+        "Decisions": 175,
+        "PlanningNS": 20830679400,
+        "PlanningSamples": 22400,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54237000,
+        "Shiyi": 560,
+        "Turns": 53,
+        "Paid": 21,
+        "Changes": 35,
+        "Decisions": 145,
+        "PlanningNS": 4826009100,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250118300,
+        "Shiyi": 490,
+        "Turns": 45,
+        "Paid": 25,
+        "Changes": 12,
+        "Decisions": 126,
+        "PlanningNS": 14721989500,
+        "PlanningSamples": 16128,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49910800,
+        "Shiyi": 430,
+        "Turns": 37,
+        "Paid": 32,
+        "Changes": 33,
+        "Decisions": 102,
+        "PlanningNS": 2871252600,
+        "PlanningSamples": 13056,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 238451400,
+        "Shiyi": 575,
+        "Turns": 53,
+        "Paid": 32,
+        "Changes": 16,
+        "Decisions": 156,
+        "PlanningNS": 16114740000,
+        "PlanningSamples": 19968,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52945200,
+        "Shiyi": 480,
+        "Turns": 42,
+        "Paid": 27,
+        "Changes": 25,
+        "Decisions": 117,
+        "PlanningNS": 4078584900,
+        "PlanningSamples": 14976,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 254328900,
+        "Shiyi": 505,
+        "Turns": 47,
+        "Paid": 37,
+        "Changes": 16,
+        "Decisions": 152,
+        "PlanningNS": 19076408700,
+        "PlanningSamples": 19456,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52404300,
+        "Shiyi": 445,
+        "Turns": 40,
+        "Paid": 27,
+        "Changes": 26,
+        "Decisions": 109,
+        "PlanningNS": 3371872300,
+        "PlanningSamples": 13952,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 251335600,
+        "Shiyi": 465,
+        "Turns": 45,
+        "Paid": 21,
+        "Changes": 12,
+        "Decisions": 115,
+        "PlanningNS": 10208167800,
+        "PlanningSamples": 14720,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48965100,
+        "Shiyi": 380,
+        "Turns": 35,
+        "Paid": 25,
+        "Changes": 26,
+        "Decisions": 110,
+        "PlanningNS": 3169839700,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 252069700,
+        "Shiyi": 440,
+        "Turns": 39,
+        "Paid": 42,
+        "Changes": 14,
+        "Decisions": 132,
+        "PlanningNS": 15256881000,
+        "PlanningSamples": 16896,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50329400,
+        "Shiyi": 445,
+        "Turns": 41,
+        "Paid": 24,
+        "Changes": 17,
+        "Decisions": 107,
+        "PlanningNS": 3319779400,
+        "PlanningSamples": 13696,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 2,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 247038400,
+        "Shiyi": 650,
+        "Turns": 63,
+        "Paid": 14,
+        "Changes": 14,
+        "Decisions": 155,
+        "PlanningNS": 18139535100,
+        "PlanningSamples": 19584,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50585700,
+        "Shiyi": 555,
+        "Turns": 50,
+        "Paid": 32,
+        "Changes": 36,
+        "Decisions": 132,
+        "PlanningNS": 4065880700,
+        "PlanningSamples": 16896,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 243822900,
+        "Shiyi": 530,
+        "Turns": 48,
+        "Paid": 41,
+        "Changes": 18,
+        "Decisions": 157,
+        "PlanningNS": 17337594600,
+        "PlanningSamples": 20096,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49909700,
+        "Shiyi": 385,
+        "Turns": 35,
+        "Paid": 38,
+        "Changes": 35,
+        "Decisions": 116,
+        "PlanningNS": 3368480900,
+        "PlanningSamples": 14848,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 233629900,
+        "Shiyi": 475,
+        "Turns": 44,
+        "Paid": 29,
+        "Changes": 22,
+        "Decisions": 142,
+        "PlanningNS": 15090746200,
+        "PlanningSamples": 18176,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52231000,
+        "Shiyi": 410,
+        "Turns": 35,
+        "Paid": 18,
+        "Changes": 29,
+        "Decisions": 107,
+        "PlanningNS": 3134348800,
+        "PlanningSamples": 13696,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 1,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 243265300,
+        "Shiyi": 660,
+        "Turns": 63,
+        "Paid": 32,
+        "Changes": 24,
+        "Decisions": 173,
+        "PlanningNS": 20365535300,
+        "PlanningSamples": 22016,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47877400,
+        "Shiyi": 355,
+        "Turns": 32,
+        "Paid": 27,
+        "Changes": 24,
+        "Decisions": 79,
+        "PlanningNS": 2440410700,
+        "PlanningSamples": 10112,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 255985100,
+        "Shiyi": 485,
+        "Turns": 43,
+        "Paid": 27,
+        "Changes": 22,
+        "Decisions": 133,
+        "PlanningNS": 16807953900,
+        "PlanningSamples": 17024,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 1,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 57087600,
+        "Shiyi": 660,
+        "Turns": 63,
+        "Paid": 11,
+        "Changes": 32,
+        "Decisions": 131,
+        "PlanningNS": 4494623000,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 238713000,
+        "Shiyi": 355,
+        "Turns": 31,
+        "Paid": 40,
+        "Changes": 10,
+        "Decisions": 106,
+        "PlanningNS": 13406518700,
+        "PlanningSamples": 13568,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 45460900,
+        "Shiyi": 420,
+        "Turns": 36,
+        "Paid": 27,
+        "Changes": 27,
+        "Decisions": 103,
+        "PlanningNS": 3024786800,
+        "PlanningSamples": 13184,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 243092000,
+        "Shiyi": 465,
+        "Turns": 42,
+        "Paid": 21,
+        "Changes": 16,
+        "Decisions": 119,
+        "PlanningNS": 12453631100,
+        "PlanningSamples": 15232,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54816700,
+        "Shiyi": 640,
+        "Turns": 61,
+        "Paid": 16,
+        "Changes": 37,
+        "Decisions": 143,
+        "PlanningNS": 4815163900,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248109200,
+        "Shiyi": 560,
+        "Turns": 53,
+        "Paid": 20,
+        "Changes": 15,
+        "Decisions": 130,
+        "PlanningNS": 12390233300,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47016300,
+        "Shiyi": 365,
+        "Turns": 31,
+        "Paid": 30,
+        "Changes": 17,
+        "Decisions": 83,
+        "PlanningNS": 2484485600,
+        "PlanningSamples": 10624,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244032800,
+        "Shiyi": 515,
+        "Turns": 48,
+        "Paid": 16,
+        "Changes": 13,
+        "Decisions": 135,
+        "PlanningNS": 13868586100,
+        "PlanningSamples": 17280,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48268400,
+        "Shiyi": 505,
+        "Turns": 48,
+        "Paid": 16,
+        "Changes": 31,
+        "Decisions": 119,
+        "PlanningNS": 3718809100,
+        "PlanningSamples": 15232,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244628100,
+        "Shiyi": 635,
+        "Turns": 61,
+        "Paid": 25,
+        "Changes": 20,
+        "Decisions": 158,
+        "PlanningNS": 15723664600,
+        "PlanningSamples": 20224,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53473700,
+        "Shiyi": 440,
+        "Turns": 40,
+        "Paid": 31,
+        "Changes": 32,
+        "Decisions": 131,
+        "PlanningNS": 4493636200,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 251521700,
+        "Shiyi": 375,
+        "Turns": 35,
+        "Paid": 40,
+        "Changes": 12,
+        "Decisions": 138,
+        "PlanningNS": 15909866200,
+        "PlanningSamples": 17664,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47947400,
+        "Shiyi": 565,
+        "Turns": 56,
+        "Paid": 28,
+        "Changes": 29,
+        "Decisions": 137,
+        "PlanningNS": 4174123200,
+        "PlanningSamples": 17536,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 254823800,
+        "Shiyi": 640,
+        "Turns": 61,
+        "Paid": 21,
+        "Changes": 18,
+        "Decisions": 171,
+        "PlanningNS": 18688929000,
+        "PlanningSamples": 21888,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51326900,
+        "Shiyi": 435,
+        "Turns": 39,
+        "Paid": 39,
+        "Changes": 33,
+        "Decisions": 121,
+        "PlanningNS": 3490154200,
+        "PlanningSamples": 15488,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 266572900,
+        "Shiyi": 485,
+        "Turns": 44,
+        "Paid": 42,
+        "Changes": 24,
+        "Decisions": 160,
+        "PlanningNS": 22640514500,
+        "PlanningSamples": 20480,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53706500,
+        "Shiyi": 540,
+        "Turns": 48,
+        "Paid": 41,
+        "Changes": 36,
+        "Decisions": 143,
+        "PlanningNS": 4500017600,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 256903900,
+        "Shiyi": 660,
+        "Turns": 62,
+        "Paid": 28,
+        "Changes": 16,
+        "Decisions": 158,
+        "PlanningNS": 20213791000,
+        "PlanningSamples": 20224,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50584000,
+        "Shiyi": 510,
+        "Turns": 47,
+        "Paid": 32,
+        "Changes": 33,
+        "Decisions": 126,
+        "PlanningNS": 3913200400,
+        "PlanningSamples": 16128,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 226894900,
+        "Shiyi": 440,
+        "Turns": 39,
+        "Paid": 33,
+        "Changes": 14,
+        "Decisions": 131,
+        "PlanningNS": 15039476500,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 56222200,
+        "Shiyi": 490,
+        "Turns": 44,
+        "Paid": 33,
+        "Changes": 34,
+        "Decisions": 118,
+        "PlanningNS": 3923802400,
+        "PlanningSamples": 15104,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 4,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 222489400,
+        "Shiyi": 705,
+        "Turns": 66,
+        "Paid": 23,
+        "Changes": 15,
+        "Decisions": 163,
+        "PlanningNS": 19225417600,
+        "PlanningSamples": 20352,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 61367800,
+        "Shiyi": 625,
+        "Turns": 59,
+        "Paid": 30,
+        "Changes": 44,
+        "Decisions": 178,
+        "PlanningNS": 6667581700,
+        "PlanningSamples": 22784,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 1,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 269075300,
+        "Shiyi": 655,
+        "Turns": 63,
+        "Paid": 13,
+        "Changes": 23,
+        "Decisions": 161,
+        "PlanningNS": 18498836300,
+        "PlanningSamples": 20480,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53545300,
+        "Shiyi": 515,
+        "Turns": 48,
+        "Paid": 23,
+        "Changes": 35,
+        "Decisions": 132,
+        "PlanningNS": 4380692900,
+        "PlanningSamples": 16896,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 236740900,
+        "Shiyi": 545,
+        "Turns": 51,
+        "Paid": 28,
+        "Changes": 19,
+        "Decisions": 146,
+        "PlanningNS": 16950566700,
+        "PlanningSamples": 18688,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52620800,
+        "Shiyi": 325,
+        "Turns": 28,
+        "Paid": 22,
+        "Changes": 23,
+        "Decisions": 77,
+        "PlanningNS": 2425542500,
+        "PlanningSamples": 9856,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 232921000,
+        "Shiyi": 645,
+        "Turns": 61,
+        "Paid": 16,
+        "Changes": 25,
+        "Decisions": 171,
+        "PlanningNS": 18616190900,
+        "PlanningSamples": 21888,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47306000,
+        "Shiyi": 510,
+        "Turns": 48,
+        "Paid": 21,
+        "Changes": 32,
+        "Decisions": 121,
+        "PlanningNS": 3624669800,
+        "PlanningSamples": 15488,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 242929100,
+        "Shiyi": 485,
+        "Turns": 45,
+        "Paid": 35,
+        "Changes": 16,
+        "Decisions": 144,
+        "PlanningNS": 17447143100,
+        "PlanningSamples": 18432,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51436500,
+        "Shiyi": 430,
+        "Turns": 40,
+        "Paid": 21,
+        "Changes": 33,
+        "Decisions": 103,
+        "PlanningNS": 3315968100,
+        "PlanningSamples": 13184,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 239314800,
+        "Shiyi": 465,
+        "Turns": 41,
+        "Paid": 36,
+        "Changes": 16,
+        "Decisions": 139,
+        "PlanningNS": 17862613000,
+        "PlanningSamples": 17792,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 45124200,
+        "Shiyi": 490,
+        "Turns": 46,
+        "Paid": 32,
+        "Changes": 28,
+        "Decisions": 128,
+        "PlanningNS": 3643850900,
+        "PlanningSamples": 16384,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250928200,
+        "Shiyi": 540,
+        "Turns": 52,
+        "Paid": 32,
+        "Changes": 18,
+        "Decisions": 143,
+        "PlanningNS": 16743965400,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48667400,
+        "Shiyi": 385,
+        "Turns": 34,
+        "Paid": 35,
+        "Changes": 30,
+        "Decisions": 104,
+        "PlanningNS": 3205095700,
+        "PlanningSamples": 13312,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 262034500,
+        "Shiyi": 635,
+        "Turns": 59,
+        "Paid": 17,
+        "Changes": 20,
+        "Decisions": 141,
+        "PlanningNS": 15646258600,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53719300,
+        "Shiyi": 655,
+        "Turns": 62,
+        "Paid": 21,
+        "Changes": 46,
+        "Decisions": 155,
+        "PlanningNS": 5224734100,
+        "PlanningSamples": 19840,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 6,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 261359100,
+        "Shiyi": 700,
+        "Turns": 68,
+        "Paid": 18,
+        "Changes": 25,
+        "Decisions": 156,
+        "PlanningNS": 18903477200,
+        "PlanningSamples": 19200,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50234500,
+        "Shiyi": 585,
+        "Turns": 55,
+        "Paid": 23,
+        "Changes": 40,
+        "Decisions": 136,
+        "PlanningNS": 4515454500,
+        "PlanningSamples": 17408,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 254232500,
+        "Shiyi": 605,
+        "Turns": 56,
+        "Paid": 26,
+        "Changes": 17,
+        "Decisions": 157,
+        "PlanningNS": 17581900700,
+        "PlanningSamples": 20096,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53608700,
+        "Shiyi": 420,
+        "Turns": 39,
+        "Paid": 35,
+        "Changes": 32,
+        "Decisions": 119,
+        "PlanningNS": 3702345800,
+        "PlanningSamples": 15232,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 255816000,
+        "Shiyi": 605,
+        "Turns": 58,
+        "Paid": 14,
+        "Changes": 29,
+        "Decisions": 158,
+        "PlanningNS": 18610333500,
+        "PlanningSamples": 20224,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55253200,
+        "Shiyi": 615,
+        "Turns": 59,
+        "Paid": 24,
+        "Changes": 32,
+        "Decisions": 152,
+        "PlanningNS": 5236214500,
+        "PlanningSamples": 19456,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 251301300,
+        "Shiyi": 420,
+        "Turns": 38,
+        "Paid": 30,
+        "Changes": 20,
+        "Decisions": 127,
+        "PlanningNS": 15872664800,
+        "PlanningSamples": 16256,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 56238100,
+        "Shiyi": 465,
+        "Turns": 44,
+        "Paid": 33,
+        "Changes": 34,
+        "Decisions": 129,
+        "PlanningNS": 4309418500,
+        "PlanningSamples": 16512,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 246611200,
+        "Shiyi": 485,
+        "Turns": 47,
+        "Paid": 16,
+        "Changes": 13,
+        "Decisions": 104,
+        "PlanningNS": 10846165300,
+        "PlanningSamples": 13312,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49491500,
+        "Shiyi": 335,
+        "Turns": 31,
+        "Paid": 48,
+        "Changes": 28,
+        "Decisions": 108,
+        "PlanningNS": 3146331700,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 257807800,
+        "Shiyi": 535,
+        "Turns": 50,
+        "Paid": 37,
+        "Changes": 18,
+        "Decisions": 159,
+        "PlanningNS": 16929122100,
+        "PlanningSamples": 20352,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51166200,
+        "Shiyi": 415,
+        "Turns": 39,
+        "Paid": 28,
+        "Changes": 24,
+        "Decisions": 102,
+        "PlanningNS": 3286488000,
+        "PlanningSamples": 13056,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 234905100,
+        "Shiyi": 495,
+        "Turns": 46,
+        "Paid": 33,
+        "Changes": 15,
+        "Decisions": 128,
+        "PlanningNS": 13716314300,
+        "PlanningSamples": 16384,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47345200,
+        "Shiyi": 440,
+        "Turns": 40,
+        "Paid": 22,
+        "Changes": 31,
+        "Decisions": 100,
+        "PlanningNS": 3219229400,
+        "PlanningSamples": 12800,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 237234700,
+        "Shiyi": 525,
+        "Turns": 49,
+        "Paid": 29,
+        "Changes": 15,
+        "Decisions": 129,
+        "PlanningNS": 14732544500,
+        "PlanningSamples": 16512,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49456200,
+        "Shiyi": 385,
+        "Turns": 33,
+        "Paid": 32,
+        "Changes": 27,
+        "Decisions": 90,
+        "PlanningNS": 2826986100,
+        "PlanningSamples": 11520,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250364600,
+        "Shiyi": 530,
+        "Turns": 50,
+        "Paid": 28,
+        "Changes": 14,
+        "Decisions": 142,
+        "PlanningNS": 17115442900,
+        "PlanningSamples": 18176,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54384700,
+        "Shiyi": 455,
+        "Turns": 43,
+        "Paid": 31,
+        "Changes": 36,
+        "Decisions": 131,
+        "PlanningNS": 3824817900,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 265362900,
+        "Shiyi": 500,
+        "Turns": 48,
+        "Paid": 41,
+        "Changes": 23,
+        "Decisions": 160,
+        "PlanningNS": 19191123800,
+        "PlanningSamples": 20480,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49560100,
+        "Shiyi": 380,
+        "Turns": 34,
+        "Paid": 50,
+        "Changes": 30,
+        "Decisions": 128,
+        "PlanningNS": 4267190600,
+        "PlanningSamples": 16384,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 242258700,
+        "Shiyi": 395,
+        "Turns": 37,
+        "Paid": 36,
+        "Changes": 18,
+        "Decisions": 121,
+        "PlanningNS": 14492730300,
+        "PlanningSamples": 15488,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50824500,
+        "Shiyi": 360,
+        "Turns": 34,
+        "Paid": 29,
+        "Changes": 29,
+        "Decisions": 99,
+        "PlanningNS": 3103720800,
+        "PlanningSamples": 12672,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 242279500,
+        "Shiyi": 465,
+        "Turns": 42,
+        "Paid": 36,
+        "Changes": 28,
+        "Decisions": 143,
+        "PlanningNS": 18385386100,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47636000,
+        "Shiyi": 425,
+        "Turns": 37,
+        "Paid": 34,
+        "Changes": 31,
+        "Decisions": 107,
+        "PlanningNS": 3379673100,
+        "PlanningSamples": 13696,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 255318100,
+        "Shiyi": 440,
+        "Turns": 42,
+        "Paid": 31,
+        "Changes": 13,
+        "Decisions": 125,
+        "PlanningNS": 14938490300,
+        "PlanningSamples": 16000,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47045100,
+        "Shiyi": 400,
+        "Turns": 36,
+        "Paid": 30,
+        "Changes": 34,
+        "Decisions": 100,
+        "PlanningNS": 3193359200,
+        "PlanningSamples": 12800,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248822100,
+        "Shiyi": 365,
+        "Turns": 34,
+        "Paid": 43,
+        "Changes": 13,
+        "Decisions": 128,
+        "PlanningNS": 15151893800,
+        "PlanningSamples": 16384,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50566700,
+        "Shiyi": 515,
+        "Turns": 46,
+        "Paid": 25,
+        "Changes": 38,
+        "Decisions": 120,
+        "PlanningNS": 3665386900,
+        "PlanningSamples": 15360,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 268400900,
+        "Shiyi": 635,
+        "Turns": 58,
+        "Paid": 41,
+        "Changes": 18,
+        "Decisions": 174,
+        "PlanningNS": 19129520000,
+        "PlanningSamples": 22272,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 65920200,
+        "Shiyi": 620,
+        "Turns": 61,
+        "Paid": 28,
+        "Changes": 32,
+        "Decisions": 158,
+        "PlanningNS": 6252932800,
+        "PlanningSamples": 20224,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 269462700,
+        "Shiyi": 605,
+        "Turns": 55,
+        "Paid": 25,
+        "Changes": 12,
+        "Decisions": 166,
+        "PlanningNS": 19470662700,
+        "PlanningSamples": 21248,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50473300,
+        "Shiyi": 575,
+        "Turns": 53,
+        "Paid": 23,
+        "Changes": 27,
+        "Decisions": 133,
+        "PlanningNS": 4312888300,
+        "PlanningSamples": 17024,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248745500,
+        "Shiyi": 580,
+        "Turns": 55,
+        "Paid": 24,
+        "Changes": 16,
+        "Decisions": 150,
+        "PlanningNS": 14973946000,
+        "PlanningSamples": 19200,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47841200,
+        "Shiyi": 425,
+        "Turns": 39,
+        "Paid": 18,
+        "Changes": 20,
+        "Decisions": 99,
+        "PlanningNS": 3101441400,
+        "PlanningSamples": 12672,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 241276700,
+        "Shiyi": 450,
+        "Turns": 40,
+        "Paid": 29,
+        "Changes": 15,
+        "Decisions": 124,
+        "PlanningNS": 13909000700,
+        "PlanningSamples": 15872,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53927000,
+        "Shiyi": 490,
+        "Turns": 46,
+        "Paid": 21,
+        "Changes": 25,
+        "Decisions": 108,
+        "PlanningNS": 3285482100,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 205301100,
+        "Shiyi": 440,
+        "Turns": 41,
+        "Paid": 22,
+        "Changes": 10,
+        "Decisions": 104,
+        "PlanningNS": 9553800200,
+        "PlanningSamples": 13312,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51180200,
+        "Shiyi": 535,
+        "Turns": 52,
+        "Paid": 23,
+        "Changes": 36,
+        "Decisions": 129,
+        "PlanningNS": 4144089100,
+        "PlanningSamples": 16512,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 245104100,
+        "Shiyi": 485,
+        "Turns": 45,
+        "Paid": 14,
+        "Changes": 16,
+        "Decisions": 116,
+        "PlanningNS": 12319264300,
+        "PlanningSamples": 14848,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46340000,
+        "Shiyi": 415,
+        "Turns": 38,
+        "Paid": 26,
+        "Changes": 22,
+        "Decisions": 97,
+        "PlanningNS": 2557539000,
+        "PlanningSamples": 12416,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 258101000,
+        "Shiyi": 525,
+        "Turns": 49,
+        "Paid": 18,
+        "Changes": 15,
+        "Decisions": 131,
+        "PlanningNS": 15546687000,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 58505700,
+        "Shiyi": 635,
+        "Turns": 59,
+        "Paid": 16,
+        "Changes": 29,
+        "Decisions": 138,
+        "PlanningNS": 4934072000,
+        "PlanningSamples": 17664,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 238600600,
+        "Shiyi": 485,
+        "Turns": 44,
+        "Paid": 43,
+        "Changes": 17,
+        "Decisions": 157,
+        "PlanningNS": 19164399600,
+        "PlanningSamples": 20096,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53848700,
+        "Shiyi": 410,
+        "Turns": 36,
+        "Paid": 43,
+        "Changes": 36,
+        "Decisions": 122,
+        "PlanningNS": 3830566200,
+        "PlanningSamples": 15616,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 243206500,
+        "Shiyi": 570,
+        "Turns": 55,
+        "Paid": 39,
+        "Changes": 23,
+        "Decisions": 148,
+        "PlanningNS": 15239102400,
+        "PlanningSamples": 18944,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 45262100,
+        "Shiyi": 390,
+        "Turns": 36,
+        "Paid": 29,
+        "Changes": 22,
+        "Decisions": 98,
+        "PlanningNS": 2879347100,
+        "PlanningSamples": 12544,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 242696800,
+        "Shiyi": 470,
+        "Turns": 45,
+        "Paid": 29,
+        "Changes": 16,
+        "Decisions": 135,
+        "PlanningNS": 16681082600,
+        "PlanningSamples": 17280,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52017300,
+        "Shiyi": 410,
+        "Turns": 37,
+        "Paid": 30,
+        "Changes": 36,
+        "Decisions": 109,
+        "PlanningNS": 3287649300,
+        "PlanningSamples": 13952,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 223332300,
+        "Shiyi": 425,
+        "Turns": 39,
+        "Paid": 29,
+        "Changes": 12,
+        "Decisions": 108,
+        "PlanningNS": 11580936100,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47546700,
+        "Shiyi": 515,
+        "Turns": 49,
+        "Paid": 27,
+        "Changes": 34,
+        "Decisions": 123,
+        "PlanningNS": 3693313400,
+        "PlanningSamples": 15744,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 235808600,
+        "Shiyi": 520,
+        "Turns": 46,
+        "Paid": 37,
+        "Changes": 18,
+        "Decisions": 144,
+        "PlanningNS": 16223787800,
+        "PlanningSamples": 18432,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 61712200,
+        "Shiyi": 640,
+        "Turns": 62,
+        "Paid": 12,
+        "Changes": 34,
+        "Decisions": 164,
+        "PlanningNS": 6499975500,
+        "PlanningSamples": 20992,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 264238900,
+        "Shiyi": 620,
+        "Turns": 59,
+        "Paid": 19,
+        "Changes": 17,
+        "Decisions": 158,
+        "PlanningNS": 19693195400,
+        "PlanningSamples": 20224,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47780600,
+        "Shiyi": 415,
+        "Turns": 37,
+        "Paid": 24,
+        "Changes": 25,
+        "Decisions": 105,
+        "PlanningNS": 3143277700,
+        "PlanningSamples": 13440,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 233468800,
+        "Shiyi": 520,
+        "Turns": 47,
+        "Paid": 16,
+        "Changes": 27,
+        "Decisions": 116,
+        "PlanningNS": 11651297100,
+        "PlanningSamples": 14848,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52526800,
+        "Shiyi": 435,
+        "Turns": 42,
+        "Paid": 35,
+        "Changes": 23,
+        "Decisions": 122,
+        "PlanningNS": 3589796700,
+        "PlanningSamples": 15616,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 231835100,
+        "Shiyi": 440,
+        "Turns": 40,
+        "Paid": 43,
+        "Changes": 16,
+        "Decisions": 130,
+        "PlanningNS": 13032322100,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53750300,
+        "Shiyi": 505,
+        "Turns": 48,
+        "Paid": 13,
+        "Changes": 31,
+        "Decisions": 122,
+        "PlanningNS": 3876346000,
+        "PlanningSamples": 15616,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244308700,
+        "Shiyi": 560,
+        "Turns": 52,
+        "Paid": 29,
+        "Changes": 17,
+        "Decisions": 148,
+        "PlanningNS": 16031864700,
+        "PlanningSamples": 18944,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 56333100,
+        "Shiyi": 490,
+        "Turns": 43,
+        "Paid": 33,
+        "Changes": 35,
+        "Decisions": 127,
+        "PlanningNS": 4170700100,
+        "PlanningSamples": 16256,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 240788600,
+        "Shiyi": 445,
+        "Turns": 40,
+        "Paid": 27,
+        "Changes": 15,
+        "Decisions": 129,
+        "PlanningNS": 13830257400,
+        "PlanningSamples": 16512,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50852500,
+        "Shiyi": 485,
+        "Turns": 45,
+        "Paid": 25,
+        "Changes": 27,
+        "Decisions": 113,
+        "PlanningNS": 3831920200,
+        "PlanningSamples": 14464,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 268260400,
+        "Shiyi": 530,
+        "Turns": 51,
+        "Paid": 22,
+        "Changes": 15,
+        "Decisions": 130,
+        "PlanningNS": 12895914600,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47074900,
+        "Shiyi": 355,
+        "Turns": 31,
+        "Paid": 34,
+        "Changes": 23,
+        "Decisions": 99,
+        "PlanningNS": 2902762300,
+        "PlanningSamples": 12672,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263336900,
+        "Shiyi": 595,
+        "Turns": 56,
+        "Paid": 24,
+        "Changes": 22,
+        "Decisions": 149,
+        "PlanningNS": 14777609300,
+        "PlanningSamples": 19072,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52348600,
+        "Shiyi": 405,
+        "Turns": 36,
+        "Paid": 37,
+        "Changes": 25,
+        "Decisions": 101,
+        "PlanningNS": 2930653000,
+        "PlanningSamples": 12928,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 242788500,
+        "Shiyi": 520,
+        "Turns": 47,
+        "Paid": 35,
+        "Changes": 22,
+        "Decisions": 154,
+        "PlanningNS": 18690923800,
+        "PlanningSamples": 19712,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54169400,
+        "Shiyi": 425,
+        "Turns": 38,
+        "Paid": 27,
+        "Changes": 33,
+        "Decisions": 110,
+        "PlanningNS": 3358002900,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 273394200,
+        "Shiyi": 555,
+        "Turns": 52,
+        "Paid": 27,
+        "Changes": 20,
+        "Decisions": 148,
+        "PlanningNS": 16202655600,
+        "PlanningSamples": 18944,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 62841200,
+        "Shiyi": 540,
+        "Turns": 50,
+        "Paid": 28,
+        "Changes": 34,
+        "Decisions": 144,
+        "PlanningNS": 5508742700,
+        "PlanningSamples": 18432,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 3,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 282267500,
+        "Shiyi": 670,
+        "Turns": 64,
+        "Paid": 24,
+        "Changes": 18,
+        "Decisions": 172,
+        "PlanningNS": 18254247800,
+        "PlanningSamples": 21632,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53265300,
+        "Shiyi": 410,
+        "Turns": 37,
+        "Paid": 18,
+        "Changes": 31,
+        "Decisions": 97,
+        "PlanningNS": 3232091900,
+        "PlanningSamples": 12416,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248808000,
+        "Shiyi": 520,
+        "Turns": 48,
+        "Paid": 36,
+        "Changes": 12,
+        "Decisions": 171,
+        "PlanningNS": 19669224500,
+        "PlanningSamples": 21888,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53051600,
+        "Shiyi": 520,
+        "Turns": 50,
+        "Paid": 13,
+        "Changes": 31,
+        "Decisions": 128,
+        "PlanningNS": 4381787300,
+        "PlanningSamples": 16384,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 260623700,
+        "Shiyi": 455,
+        "Turns": 42,
+        "Paid": 52,
+        "Changes": 28,
+        "Decisions": 149,
+        "PlanningNS": 18755448500,
+        "PlanningSamples": 19072,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48554700,
+        "Shiyi": 555,
+        "Turns": 52,
+        "Paid": 33,
+        "Changes": 30,
+        "Decisions": 136,
+        "PlanningNS": 4369768800,
+        "PlanningSamples": 17408,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 296549100,
+        "Shiyi": 650,
+        "Turns": 62,
+        "Paid": 35,
+        "Changes": 19,
+        "Decisions": 190,
+        "PlanningNS": 23252707400,
+        "PlanningSamples": 24320,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55905800,
+        "Shiyi": 635,
+        "Turns": 60,
+        "Paid": 27,
+        "Changes": 39,
+        "Decisions": 174,
+        "PlanningNS": 6177322600,
+        "PlanningSamples": 22272,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263107800,
+        "Shiyi": 620,
+        "Turns": 59,
+        "Paid": 33,
+        "Changes": 20,
+        "Decisions": 185,
+        "PlanningNS": 22001497900,
+        "PlanningSamples": 23680,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50312100,
+        "Shiyi": 335,
+        "Turns": 30,
+        "Paid": 24,
+        "Changes": 29,
+        "Decisions": 82,
+        "PlanningNS": 2181283000,
+        "PlanningSamples": 10496,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 239723200,
+        "Shiyi": 595,
+        "Turns": 56,
+        "Paid": 20,
+        "Changes": 16,
+        "Decisions": 141,
+        "PlanningNS": 16494332500,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53913200,
+        "Shiyi": 635,
+        "Turns": 61,
+        "Paid": 32,
+        "Changes": 43,
+        "Decisions": 166,
+        "PlanningNS": 4859539700,
+        "PlanningSamples": 21248,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 249068600,
+        "Shiyi": 485,
+        "Turns": 44,
+        "Paid": 45,
+        "Changes": 17,
+        "Decisions": 146,
+        "PlanningNS": 15592640100,
+        "PlanningSamples": 18688,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 43683600,
+        "Shiyi": 440,
+        "Turns": 41,
+        "Paid": 22,
+        "Changes": 20,
+        "Decisions": 104,
+        "PlanningNS": 2718176500,
+        "PlanningSamples": 13312,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 247878700,
+        "Shiyi": 455,
+        "Turns": 42,
+        "Paid": 37,
+        "Changes": 15,
+        "Decisions": 130,
+        "PlanningNS": 13417749500,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48060900,
+        "Shiyi": 450,
+        "Turns": 42,
+        "Paid": 20,
+        "Changes": 24,
+        "Decisions": 100,
+        "PlanningNS": 3269247200,
+        "PlanningSamples": 12800,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248068700,
+        "Shiyi": 515,
+        "Turns": 47,
+        "Paid": 29,
+        "Changes": 18,
+        "Decisions": 129,
+        "PlanningNS": 14182581400,
+        "PlanningSamples": 16512,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51004800,
+        "Shiyi": 525,
+        "Turns": 50,
+        "Paid": 24,
+        "Changes": 34,
+        "Decisions": 128,
+        "PlanningNS": 4431527900,
+        "PlanningSamples": 16384,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244071000,
+        "Shiyi": 435,
+        "Turns": 40,
+        "Paid": 31,
+        "Changes": 16,
+        "Decisions": 116,
+        "PlanningNS": 14886238500,
+        "PlanningSamples": 14848,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47717800,
+        "Shiyi": 355,
+        "Turns": 34,
+        "Paid": 29,
+        "Changes": 21,
+        "Decisions": 90,
+        "PlanningNS": 2811748300,
+        "PlanningSamples": 11520,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 293862200,
+        "Shiyi": 550,
+        "Turns": 53,
+        "Paid": 32,
+        "Changes": 19,
+        "Decisions": 169,
+        "PlanningNS": 21437601400,
+        "PlanningSamples": 21632,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52135300,
+        "Shiyi": 570,
+        "Turns": 52,
+        "Paid": 22,
+        "Changes": 34,
+        "Decisions": 137,
+        "PlanningNS": 4352575400,
+        "PlanningSamples": 17536,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 253320900,
+        "Shiyi": 610,
+        "Turns": 56,
+        "Paid": 37,
+        "Changes": 18,
+        "Decisions": 173,
+        "PlanningNS": 20034047000,
+        "PlanningSamples": 22144,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53090000,
+        "Shiyi": 540,
+        "Turns": 49,
+        "Paid": 21,
+        "Changes": 30,
+        "Decisions": 131,
+        "PlanningNS": 4511212900,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263027100,
+        "Shiyi": 530,
+        "Turns": 49,
+        "Paid": 20,
+        "Changes": 19,
+        "Decisions": 140,
+        "PlanningNS": 14083521300,
+        "PlanningSamples": 17920,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52659300,
+        "Shiyi": 335,
+        "Turns": 29,
+        "Paid": 32,
+        "Changes": 30,
+        "Decisions": 91,
+        "PlanningNS": 2862759800,
+        "PlanningSamples": 11648,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 258800200,
+        "Shiyi": 500,
+        "Turns": 47,
+        "Paid": 35,
+        "Changes": 13,
+        "Decisions": 146,
+        "PlanningNS": 13744297700,
+        "PlanningSamples": 18688,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52709300,
+        "Shiyi": 560,
+        "Turns": 52,
+        "Paid": 25,
+        "Changes": 35,
+        "Decisions": 130,
+        "PlanningNS": 4249881300,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 246664700,
+        "Shiyi": 280,
+        "Turns": 23,
+        "Paid": 33,
+        "Changes": 13,
+        "Decisions": 82,
+        "PlanningNS": 9540371100,
+        "PlanningSamples": 10496,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50941400,
+        "Shiyi": 400,
+        "Turns": 34,
+        "Paid": 24,
+        "Changes": 29,
+        "Decisions": 112,
+        "PlanningNS": 3600533700,
+        "PlanningSamples": 14336,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244902600,
+        "Shiyi": 635,
+        "Turns": 61,
+        "Paid": 37,
+        "Changes": 17,
+        "Decisions": 158,
+        "PlanningNS": 19150556100,
+        "PlanningSamples": 20224,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46556700,
+        "Shiyi": 435,
+        "Turns": 38,
+        "Paid": 30,
+        "Changes": 33,
+        "Decisions": 104,
+        "PlanningNS": 3178749900,
+        "PlanningSamples": 13312,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 251344000,
+        "Shiyi": 520,
+        "Turns": 48,
+        "Paid": 25,
+        "Changes": 13,
+        "Decisions": 127,
+        "PlanningNS": 14668377500,
+        "PlanningSamples": 16256,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 56573800,
+        "Shiyi": 690,
+        "Turns": 62,
+        "Paid": 25,
+        "Changes": 44,
+        "Decisions": 186,
+        "PlanningNS": 6704604400,
+        "PlanningSamples": 23808,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 269788400,
+        "Shiyi": 540,
+        "Turns": 50,
+        "Paid": 35,
+        "Changes": 15,
+        "Decisions": 154,
+        "PlanningNS": 19569852300,
+        "PlanningSamples": 19712,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49950200,
+        "Shiyi": 320,
+        "Turns": 29,
+        "Paid": 39,
+        "Changes": 18,
+        "Decisions": 91,
+        "PlanningNS": 2680302900,
+        "PlanningSamples": 11648,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 255224200,
+        "Shiyi": 430,
+        "Turns": 41,
+        "Paid": 31,
+        "Changes": 13,
+        "Decisions": 123,
+        "PlanningNS": 11960363700,
+        "PlanningSamples": 15744,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46721300,
+        "Shiyi": 495,
+        "Turns": 46,
+        "Paid": 29,
+        "Changes": 35,
+        "Decisions": 116,
+        "PlanningNS": 3339001600,
+        "PlanningSamples": 14848,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 238459300,
+        "Shiyi": 545,
+        "Turns": 51,
+        "Paid": 28,
+        "Changes": 21,
+        "Decisions": 156,
+        "PlanningNS": 18934044800,
+        "PlanningSamples": 19968,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48396000,
+        "Shiyi": 425,
+        "Turns": 37,
+        "Paid": 29,
+        "Changes": 28,
+        "Decisions": 105,
+        "PlanningNS": 3193198000,
+        "PlanningSamples": 13440,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263999600,
+        "Shiyi": 465,
+        "Turns": 41,
+        "Paid": 61,
+        "Changes": 18,
+        "Decisions": 179,
+        "PlanningNS": 23466995200,
+        "PlanningSamples": 22912,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50609400,
+        "Shiyi": 415,
+        "Turns": 36,
+        "Paid": 36,
+        "Changes": 25,
+        "Decisions": 108,
+        "PlanningNS": 3299450200,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 241640400,
+        "Shiyi": 365,
+        "Turns": 30,
+        "Paid": 35,
+        "Changes": 11,
+        "Decisions": 108,
+        "PlanningNS": 11125555600,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48609100,
+        "Shiyi": 455,
+        "Turns": 43,
+        "Paid": 29,
+        "Changes": 21,
+        "Decisions": 120,
+        "PlanningNS": 3918752200,
+        "PlanningSamples": 15360,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250690900,
+        "Shiyi": 420,
+        "Turns": 40,
+        "Paid": 20,
+        "Changes": 12,
+        "Decisions": 107,
+        "PlanningNS": 12534377400,
+        "PlanningSamples": 13696,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50940200,
+        "Shiyi": 380,
+        "Turns": 37,
+        "Paid": 31,
+        "Changes": 22,
+        "Decisions": 109,
+        "PlanningNS": 3314670000,
+        "PlanningSamples": 13952,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 257486700,
+        "Shiyi": 550,
+        "Turns": 51,
+        "Paid": 15,
+        "Changes": 15,
+        "Decisions": 110,
+        "PlanningNS": 14269010700,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46696400,
+        "Shiyi": 535,
+        "Turns": 48,
+        "Paid": 33,
+        "Changes": 35,
+        "Decisions": 117,
+        "PlanningNS": 3322158100,
+        "PlanningSamples": 14976,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 224872000,
+        "Shiyi": 510,
+        "Turns": 46,
+        "Paid": 33,
+        "Changes": 20,
+        "Decisions": 131,
+        "PlanningNS": 13881376900,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51697100,
+        "Shiyi": 555,
+        "Turns": 52,
+        "Paid": 35,
+        "Changes": 29,
+        "Decisions": 133,
+        "PlanningNS": 4465543000,
+        "PlanningSamples": 17024,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 4,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 240602600,
+        "Shiyi": 685,
+        "Turns": 65,
+        "Paid": 13,
+        "Changes": 16,
+        "Decisions": 149,
+        "PlanningNS": 15162543300,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 1,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 60847500,
+        "Shiyi": 670,
+        "Turns": 63,
+        "Paid": 14,
+        "Changes": 33,
+        "Decisions": 147,
+        "PlanningNS": 5881135300,
+        "PlanningSamples": 18688,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 285473800,
+        "Shiyi": 615,
+        "Turns": 59,
+        "Paid": 16,
+        "Changes": 15,
+        "Decisions": 151,
+        "PlanningNS": 16836639400,
+        "PlanningSamples": 19328,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55289600,
+        "Shiyi": 400,
+        "Turns": 37,
+        "Paid": 29,
+        "Changes": 37,
+        "Decisions": 120,
+        "PlanningNS": 4139061200,
+        "PlanningSamples": 15360,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 276330900,
+        "Shiyi": 490,
+        "Turns": 47,
+        "Paid": 21,
+        "Changes": 12,
+        "Decisions": 139,
+        "PlanningNS": 15729997100,
+        "PlanningSamples": 17792,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50092300,
+        "Shiyi": 485,
+        "Turns": 45,
+        "Paid": 35,
+        "Changes": 25,
+        "Decisions": 118,
+        "PlanningNS": 3932673300,
+        "PlanningSamples": 15104,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 252475900,
+        "Shiyi": 580,
+        "Turns": 53,
+        "Paid": 25,
+        "Changes": 16,
+        "Decisions": 141,
+        "PlanningNS": 15086547100,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52975000,
+        "Shiyi": 430,
+        "Turns": 37,
+        "Paid": 27,
+        "Changes": 24,
+        "Decisions": 105,
+        "PlanningNS": 3167156100,
+        "PlanningSamples": 13440,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 257627800,
+        "Shiyi": 460,
+        "Turns": 43,
+        "Paid": 47,
+        "Changes": 16,
+        "Decisions": 137,
+        "PlanningNS": 15568884600,
+        "PlanningSamples": 17536,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51657800,
+        "Shiyi": 475,
+        "Turns": 43,
+        "Paid": 34,
+        "Changes": 31,
+        "Decisions": 143,
+        "PlanningNS": 4765053800,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 1,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 259069800,
+        "Shiyi": 660,
+        "Turns": 63,
+        "Paid": 30,
+        "Changes": 20,
+        "Decisions": 165,
+        "PlanningNS": 19336900800,
+        "PlanningSamples": 20992,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51753000,
+        "Shiyi": 480,
+        "Turns": 43,
+        "Paid": 40,
+        "Changes": 37,
+        "Decisions": 130,
+        "PlanningNS": 4064450600,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250880100,
+        "Shiyi": 550,
+        "Turns": 51,
+        "Paid": 22,
+        "Changes": 14,
+        "Decisions": 133,
+        "PlanningNS": 14492349500,
+        "PlanningSamples": 17024,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49529000,
+        "Shiyi": 405,
+        "Turns": 37,
+        "Paid": 12,
+        "Changes": 14,
+        "Decisions": 86,
+        "PlanningNS": 2523781300,
+        "PlanningSamples": 11008,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 2,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 256354100,
+        "Shiyi": 655,
+        "Turns": 64,
+        "Paid": 11,
+        "Changes": 14,
+        "Decisions": 141,
+        "PlanningNS": 16562635100,
+        "PlanningSamples": 17792,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53107800,
+        "Shiyi": 435,
+        "Turns": 38,
+        "Paid": 36,
+        "Changes": 43,
+        "Decisions": 115,
+        "PlanningNS": 3724686500,
+        "PlanningSamples": 14720,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 285204300,
+        "Shiyi": 505,
+        "Turns": 48,
+        "Paid": 26,
+        "Changes": 12,
+        "Decisions": 140,
+        "PlanningNS": 18419045700,
+        "PlanningSamples": 17920,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 58895500,
+        "Shiyi": 545,
+        "Turns": 51,
+        "Paid": 19,
+        "Changes": 39,
+        "Decisions": 145,
+        "PlanningNS": 5128100600,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 288840500,
+        "Shiyi": 470,
+        "Turns": 45,
+        "Paid": 24,
+        "Changes": 16,
+        "Decisions": 115,
+        "PlanningNS": 13255048600,
+        "PlanningSamples": 14720,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 5,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54071700,
+        "Shiyi": 725,
+        "Turns": 66,
+        "Paid": 19,
+        "Changes": 38,
+        "Decisions": 161,
+        "PlanningNS": 5581938600,
+        "PlanningSamples": 19968,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250198700,
+        "Shiyi": 570,
+        "Turns": 54,
+        "Paid": 26,
+        "Changes": 21,
+        "Decisions": 152,
+        "PlanningNS": 17329778900,
+        "PlanningSamples": 19456,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49679300,
+        "Shiyi": 620,
+        "Turns": 56,
+        "Paid": 35,
+        "Changes": 52,
+        "Decisions": 155,
+        "PlanningNS": 4997915300,
+        "PlanningSamples": 19840,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 247548100,
+        "Shiyi": 510,
+        "Turns": 47,
+        "Paid": 21,
+        "Changes": 18,
+        "Decisions": 132,
+        "PlanningNS": 13877370100,
+        "PlanningSamples": 16896,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54923600,
+        "Shiyi": 465,
+        "Turns": 43,
+        "Paid": 33,
+        "Changes": 45,
+        "Decisions": 122,
+        "PlanningNS": 3699337000,
+        "PlanningSamples": 15616,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 254884400,
+        "Shiyi": 490,
+        "Turns": 45,
+        "Paid": 25,
+        "Changes": 11,
+        "Decisions": 131,
+        "PlanningNS": 12979847400,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 44304700,
+        "Shiyi": 345,
+        "Turns": 30,
+        "Paid": 39,
+        "Changes": 26,
+        "Decisions": 86,
+        "PlanningNS": 2683631900,
+        "PlanningSamples": 11008,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 1,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 239318000,
+        "Shiyi": 655,
+        "Turns": 63,
+        "Paid": 9,
+        "Changes": 13,
+        "Decisions": 143,
+        "PlanningNS": 15777171400,
+        "PlanningSamples": 18176,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55654800,
+        "Shiyi": 475,
+        "Turns": 42,
+        "Paid": 47,
+        "Changes": 34,
+        "Decisions": 143,
+        "PlanningNS": 4740753600,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 255026200,
+        "Shiyi": 545,
+        "Turns": 50,
+        "Paid": 32,
+        "Changes": 20,
+        "Decisions": 135,
+        "PlanningNS": 14653927700,
+        "PlanningSamples": 17280,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55075300,
+        "Shiyi": 415,
+        "Turns": 34,
+        "Paid": 33,
+        "Changes": 34,
+        "Decisions": 106,
+        "PlanningNS": 3436665300,
+        "PlanningSamples": 13568,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250853400,
+        "Shiyi": 505,
+        "Turns": 47,
+        "Paid": 34,
+        "Changes": 14,
+        "Decisions": 141,
+        "PlanningNS": 13608294500,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49713900,
+        "Shiyi": 510,
+        "Turns": 47,
+        "Paid": 32,
+        "Changes": 34,
+        "Decisions": 133,
+        "PlanningNS": 4222524000,
+        "PlanningSamples": 17024,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244630800,
+        "Shiyi": 525,
+        "Turns": 51,
+        "Paid": 19,
+        "Changes": 15,
+        "Decisions": 127,
+        "PlanningNS": 14330413100,
+        "PlanningSamples": 16256,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55977500,
+        "Shiyi": 600,
+        "Turns": 54,
+        "Paid": 35,
+        "Changes": 39,
+        "Decisions": 150,
+        "PlanningNS": 5345167500,
+        "PlanningSamples": 19200,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 244528800,
+        "Shiyi": 485,
+        "Turns": 45,
+        "Paid": 29,
+        "Changes": 20,
+        "Decisions": 126,
+        "PlanningNS": 13650022600,
+        "PlanningSamples": 16128,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51478000,
+        "Shiyi": 535,
+        "Turns": 49,
+        "Paid": 21,
+        "Changes": 39,
+        "Decisions": 126,
+        "PlanningNS": 3854075700,
+        "PlanningSamples": 16128,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 232984400,
+        "Shiyi": 575,
+        "Turns": 56,
+        "Paid": 15,
+        "Changes": 16,
+        "Decisions": 146,
+        "PlanningNS": 15286542200,
+        "PlanningSamples": 18688,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55512100,
+        "Shiyi": 490,
+        "Turns": 45,
+        "Paid": 27,
+        "Changes": 27,
+        "Decisions": 115,
+        "PlanningNS": 3747310300,
+        "PlanningSamples": 14720,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248662300,
+        "Shiyi": 395,
+        "Turns": 36,
+        "Paid": 32,
+        "Changes": 15,
+        "Decisions": 111,
+        "PlanningNS": 12210831000,
+        "PlanningSamples": 14208,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53012000,
+        "Shiyi": 435,
+        "Turns": 41,
+        "Paid": 25,
+        "Changes": 27,
+        "Decisions": 110,
+        "PlanningNS": 3204936900,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 254141900,
+        "Shiyi": 480,
+        "Turns": 46,
+        "Paid": 24,
+        "Changes": 15,
+        "Decisions": 136,
+        "PlanningNS": 14205841800,
+        "PlanningSamples": 17408,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47402900,
+        "Shiyi": 490,
+        "Turns": 46,
+        "Paid": 29,
+        "Changes": 25,
+        "Decisions": 123,
+        "PlanningNS": 3707572300,
+        "PlanningSamples": 15744,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 246907600,
+        "Shiyi": 505,
+        "Turns": 48,
+        "Paid": 23,
+        "Changes": 17,
+        "Decisions": 124,
+        "PlanningNS": 13395395000,
+        "PlanningSamples": 15872,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51838500,
+        "Shiyi": 505,
+        "Turns": 47,
+        "Paid": 38,
+        "Changes": 42,
+        "Decisions": 135,
+        "PlanningNS": 4206094900,
+        "PlanningSamples": 17280,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 238516100,
+        "Shiyi": 505,
+        "Turns": 47,
+        "Paid": 27,
+        "Changes": 14,
+        "Decisions": 131,
+        "PlanningNS": 14907023000,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 43899000,
+        "Shiyi": 485,
+        "Turns": 44,
+        "Paid": 25,
+        "Changes": 27,
+        "Decisions": 114,
+        "PlanningNS": 3534691300,
+        "PlanningSamples": 14592,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 259895500,
+        "Shiyi": 605,
+        "Turns": 56,
+        "Paid": 28,
+        "Changes": 15,
+        "Decisions": 148,
+        "PlanningNS": 16426397300,
+        "PlanningSamples": 18944,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 45826400,
+        "Shiyi": 320,
+        "Turns": 28,
+        "Paid": 46,
+        "Changes": 25,
+        "Decisions": 100,
+        "PlanningNS": 2945967700,
+        "PlanningSamples": 12800,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 258618100,
+        "Shiyi": 495,
+        "Turns": 47,
+        "Paid": 38,
+        "Changes": 20,
+        "Decisions": 142,
+        "PlanningNS": 14264793400,
+        "PlanningSamples": 18176,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46502600,
+        "Shiyi": 485,
+        "Turns": 43,
+        "Paid": 21,
+        "Changes": 30,
+        "Decisions": 105,
+        "PlanningNS": 2999103600,
+        "PlanningSamples": 13440,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 281614900,
+        "Shiyi": 535,
+        "Turns": 50,
+        "Paid": 40,
+        "Changes": 19,
+        "Decisions": 177,
+        "PlanningNS": 23210372300,
+        "PlanningSamples": 22656,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48599400,
+        "Shiyi": 395,
+        "Turns": 36,
+        "Paid": 27,
+        "Changes": 24,
+        "Decisions": 101,
+        "PlanningNS": 2894492100,
+        "PlanningSamples": 12928,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 246567100,
+        "Shiyi": 565,
+        "Turns": 56,
+        "Paid": 24,
+        "Changes": 12,
+        "Decisions": 163,
+        "PlanningNS": 18912864600,
+        "PlanningSamples": 20864,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52158500,
+        "Shiyi": 395,
+        "Turns": 35,
+        "Paid": 25,
+        "Changes": 25,
+        "Decisions": 97,
+        "PlanningNS": 3227187300,
+        "PlanningSamples": 12416,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 1,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 254045700,
+        "Shiyi": 665,
+        "Turns": 63,
+        "Paid": 9,
+        "Changes": 15,
+        "Decisions": 144,
+        "PlanningNS": 16835961300,
+        "PlanningSamples": 18304,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52948400,
+        "Shiyi": 500,
+        "Turns": 45,
+        "Paid": 34,
+        "Changes": 34,
+        "Decisions": 116,
+        "PlanningNS": 3711833500,
+        "PlanningSamples": 14848,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263899700,
+        "Shiyi": 460,
+        "Turns": 44,
+        "Paid": 40,
+        "Changes": 17,
+        "Decisions": 155,
+        "PlanningNS": 17944195100,
+        "PlanningSamples": 19840,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52192500,
+        "Shiyi": 365,
+        "Turns": 34,
+        "Paid": 44,
+        "Changes": 31,
+        "Decisions": 112,
+        "PlanningNS": 3391904800,
+        "PlanningSamples": 14336,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 221029200,
+        "Shiyi": 365,
+        "Turns": 34,
+        "Paid": 28,
+        "Changes": 11,
+        "Decisions": 101,
+        "PlanningNS": 10796442200,
+        "PlanningSamples": 12928,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50491000,
+        "Shiyi": 445,
+        "Turns": 42,
+        "Paid": 30,
+        "Changes": 27,
+        "Decisions": 110,
+        "PlanningNS": 3059932600,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 264338400,
+        "Shiyi": 605,
+        "Turns": 58,
+        "Paid": 18,
+        "Changes": 25,
+        "Decisions": 165,
+        "PlanningNS": 19326097800,
+        "PlanningSamples": 21120,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48345400,
+        "Shiyi": 390,
+        "Turns": 34,
+        "Paid": 28,
+        "Changes": 26,
+        "Decisions": 97,
+        "PlanningNS": 3023724000,
+        "PlanningSamples": 12416,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 250358300,
+        "Shiyi": 635,
+        "Turns": 56,
+        "Paid": 31,
+        "Changes": 20,
+        "Decisions": 159,
+        "PlanningNS": 19096441200,
+        "PlanningSamples": 20352,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51768700,
+        "Shiyi": 430,
+        "Turns": 40,
+        "Paid": 20,
+        "Changes": 34,
+        "Decisions": 96,
+        "PlanningNS": 2974407100,
+        "PlanningSamples": 12288,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 253960700,
+        "Shiyi": 400,
+        "Turns": 35,
+        "Paid": 33,
+        "Changes": 12,
+        "Decisions": 121,
+        "PlanningNS": 15033273600,
+        "PlanningSamples": 15488,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 46099800,
+        "Shiyi": 495,
+        "Turns": 45,
+        "Paid": 27,
+        "Changes": 31,
+        "Decisions": 114,
+        "PlanningNS": 3292813100,
+        "PlanningSamples": 14592,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 234411200,
+        "Shiyi": 445,
+        "Turns": 39,
+        "Paid": 29,
+        "Changes": 11,
+        "Decisions": 120,
+        "PlanningNS": 13563937600,
+        "PlanningSamples": 15360,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 62073300,
+        "Shiyi": 610,
+        "Turns": 58,
+        "Paid": 27,
+        "Changes": 42,
+        "Decisions": 170,
+        "PlanningNS": 6473912600,
+        "PlanningSamples": 21760,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 272261800,
+        "Shiyi": 570,
+        "Turns": 56,
+        "Paid": 16,
+        "Changes": 16,
+        "Decisions": 147,
+        "PlanningNS": 16615294000,
+        "PlanningSamples": 18816,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51984800,
+        "Shiyi": 540,
+        "Turns": 50,
+        "Paid": 20,
+        "Changes": 38,
+        "Decisions": 121,
+        "PlanningNS": 4013007100,
+        "PlanningSamples": 15488,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 273136300,
+        "Shiyi": 615,
+        "Turns": 57,
+        "Paid": 31,
+        "Changes": 21,
+        "Decisions": 173,
+        "PlanningNS": 20786455400,
+        "PlanningSamples": 22144,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48653700,
+        "Shiyi": 540,
+        "Turns": 48,
+        "Paid": 35,
+        "Changes": 38,
+        "Decisions": 138,
+        "PlanningNS": 4398242900,
+        "PlanningSamples": 17664,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 255076300,
+        "Shiyi": 620,
+        "Turns": 59,
+        "Paid": 25,
+        "Changes": 19,
+        "Decisions": 145,
+        "PlanningNS": 16982998700,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52428500,
+        "Shiyi": 480,
+        "Turns": 44,
+        "Paid": 26,
+        "Changes": 28,
+        "Decisions": 110,
+        "PlanningNS": 3827936100,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263193700,
+        "Shiyi": 455,
+        "Turns": 40,
+        "Paid": 33,
+        "Changes": 19,
+        "Decisions": 125,
+        "PlanningNS": 14210513700,
+        "PlanningSamples": 16000,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49827900,
+        "Shiyi": 450,
+        "Turns": 41,
+        "Paid": 19,
+        "Changes": 35,
+        "Decisions": 120,
+        "PlanningNS": 3628281300,
+        "PlanningSamples": 15360,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263399200,
+        "Shiyi": 435,
+        "Turns": 39,
+        "Paid": 28,
+        "Changes": 10,
+        "Decisions": 104,
+        "PlanningNS": 11996167000,
+        "PlanningSamples": 13312,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 55849100,
+        "Shiyi": 455,
+        "Turns": 40,
+        "Paid": 15,
+        "Changes": 29,
+        "Decisions": 88,
+        "PlanningNS": 3048893600,
+        "PlanningSamples": 11264,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 258798400,
+        "Shiyi": 600,
+        "Turns": 55,
+        "Paid": 32,
+        "Changes": 19,
+        "Decisions": 147,
+        "PlanningNS": 15391001200,
+        "PlanningSamples": 18816,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54489400,
+        "Shiyi": 460,
+        "Turns": 41,
+        "Paid": 31,
+        "Changes": 23,
+        "Decisions": 118,
+        "PlanningNS": 3925016000,
+        "PlanningSamples": 15104,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 258996600,
+        "Shiyi": 590,
+        "Turns": 54,
+        "Paid": 40,
+        "Changes": 24,
+        "Decisions": 176,
+        "PlanningNS": 19621317300,
+        "PlanningSamples": 22528,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52150000,
+        "Shiyi": 435,
+        "Turns": 38,
+        "Paid": 39,
+        "Changes": 33,
+        "Decisions": 127,
+        "PlanningNS": 3895604500,
+        "PlanningSamples": 16256,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 279000200,
+        "Shiyi": 405,
+        "Turns": 39,
+        "Paid": 22,
+        "Changes": 13,
+        "Decisions": 109,
+        "PlanningNS": 13114444000,
+        "PlanningSamples": 13952,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54175200,
+        "Shiyi": 530,
+        "Turns": 49,
+        "Paid": 16,
+        "Changes": 34,
+        "Decisions": 122,
+        "PlanningNS": 3839063400,
+        "PlanningSamples": 15616,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 249344900,
+        "Shiyi": 630,
+        "Turns": 58,
+        "Paid": 13,
+        "Changes": 21,
+        "Decisions": 140,
+        "PlanningNS": 13950395800,
+        "PlanningSamples": 17920,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54136800,
+        "Shiyi": 435,
+        "Turns": 39,
+        "Paid": 37,
+        "Changes": 23,
+        "Decisions": 111,
+        "PlanningNS": 3585211000,
+        "PlanningSamples": 14208,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 238652500,
+        "Shiyi": 625,
+        "Turns": 58,
+        "Paid": 15,
+        "Changes": 18,
+        "Decisions": 145,
+        "PlanningNS": 15456300100,
+        "PlanningSamples": 18560,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53995600,
+        "Shiyi": 485,
+        "Turns": 43,
+        "Paid": 30,
+        "Changes": 29,
+        "Decisions": 118,
+        "PlanningNS": 3917031200,
+        "PlanningSamples": 15104,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 256271400,
+        "Shiyi": 520,
+        "Turns": 47,
+        "Paid": 29,
+        "Changes": 21,
+        "Decisions": 142,
+        "PlanningNS": 15474277700,
+        "PlanningSamples": 18176,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54216000,
+        "Shiyi": 455,
+        "Turns": 42,
+        "Paid": 32,
+        "Changes": 38,
+        "Decisions": 121,
+        "PlanningNS": 3812056300,
+        "PlanningSamples": 15488,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 238471100,
+        "Shiyi": 435,
+        "Turns": 38,
+        "Paid": 48,
+        "Changes": 19,
+        "Decisions": 139,
+        "PlanningNS": 17614022800,
+        "PlanningSamples": 17792,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50291300,
+        "Shiyi": 485,
+        "Turns": 45,
+        "Paid": 38,
+        "Changes": 38,
+        "Decisions": 131,
+        "PlanningNS": 3783454400,
+        "PlanningSamples": 16768,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 261485800,
+        "Shiyi": 520,
+        "Turns": 49,
+        "Paid": 28,
+        "Changes": 17,
+        "Decisions": 149,
+        "PlanningNS": 16774747400,
+        "PlanningSamples": 19072,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 62375800,
+        "Shiyi": 555,
+        "Turns": 54,
+        "Paid": 23,
+        "Changes": 33,
+        "Decisions": 147,
+        "PlanningNS": 5311804000,
+        "PlanningSamples": 18816,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 276525000,
+        "Shiyi": 510,
+        "Turns": 47,
+        "Paid": 34,
+        "Changes": 17,
+        "Decisions": 141,
+        "PlanningNS": 17780675100,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54137800,
+        "Shiyi": 555,
+        "Turns": 50,
+        "Paid": 33,
+        "Changes": 31,
+        "Decisions": 130,
+        "PlanningNS": 4287263300,
+        "PlanningSamples": 16640,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 237654000,
+        "Shiyi": 610,
+        "Turns": 58,
+        "Paid": 23,
+        "Changes": 17,
+        "Decisions": 155,
+        "PlanningNS": 15606811200,
+        "PlanningSamples": 19840,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 49846300,
+        "Shiyi": 485,
+        "Turns": 42,
+        "Paid": 31,
+        "Changes": 39,
+        "Decisions": 141,
+        "PlanningNS": 4513422300,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 252418200,
+        "Shiyi": 600,
+        "Turns": 55,
+        "Paid": 21,
+        "Changes": 25,
+        "Decisions": 147,
+        "PlanningNS": 17059403300,
+        "PlanningSamples": 18816,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53096200,
+        "Shiyi": 375,
+        "Turns": 33,
+        "Paid": 28,
+        "Changes": 30,
+        "Decisions": 98,
+        "PlanningNS": 2841998200,
+        "PlanningSamples": 12544,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 6,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 263613700,
+        "Shiyi": 710,
+        "Turns": 67,
+        "Paid": 17,
+        "Changes": 16,
+        "Decisions": 170,
+        "PlanningNS": 19243462700,
+        "PlanningSamples": 20992,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 53351800,
+        "Shiyi": 570,
+        "Turns": 51,
+        "Paid": 31,
+        "Changes": 30,
+        "Decisions": 141,
+        "PlanningNS": 4842615700,
+        "PlanningSamples": 18048,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 260112200,
+        "Shiyi": 570,
+        "Turns": 55,
+        "Paid": 10,
+        "Changes": 22,
+        "Decisions": 117,
+        "PlanningNS": 12780721500,
+        "PlanningSamples": 14976,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 50623000,
+        "Shiyi": 490,
+        "Turns": 46,
+        "Paid": 27,
+        "Changes": 21,
+        "Decisions": 112,
+        "PlanningNS": 3444224200,
+        "PlanningSamples": 14336,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 265386800,
+        "Shiyi": 495,
+        "Turns": 46,
+        "Paid": 13,
+        "Changes": 14,
+        "Decisions": 118,
+        "PlanningNS": 12296879600,
+        "PlanningSamples": 15104,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 48254000,
+        "Shiyi": 345,
+        "Turns": 29,
+        "Paid": 36,
+        "Changes": 25,
+        "Decisions": 97,
+        "PlanningNS": 2933922500,
+        "PlanningSamples": 12416,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 265657700,
+        "Shiyi": 630,
+        "Turns": 59,
+        "Paid": 30,
+        "Changes": 16,
+        "Decisions": 168,
+        "PlanningNS": 17462529400,
+        "PlanningSamples": 21504,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 57793800,
+        "Shiyi": 460,
+        "Turns": 41,
+        "Paid": 37,
+        "Changes": 38,
+        "Decisions": 115,
+        "PlanningNS": 3593367000,
+        "PlanningSamples": 14720,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 253095200,
+        "Shiyi": 505,
+        "Turns": 47,
+        "Paid": 35,
+        "Changes": 20,
+        "Decisions": 147,
+        "PlanningNS": 14127361600,
+        "PlanningSamples": 18816,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 47333000,
+        "Shiyi": 420,
+        "Turns": 39,
+        "Paid": 18,
+        "Changes": 28,
+        "Decisions": 92,
+        "PlanningNS": 2597263400,
+        "PlanningSamples": 11776,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248184700,
+        "Shiyi": 435,
+        "Turns": 41,
+        "Paid": 31,
+        "Changes": 13,
+        "Decisions": 110,
+        "PlanningNS": 12273846600,
+        "PlanningSamples": 14080,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 54733500,
+        "Shiyi": 305,
+        "Turns": 27,
+        "Paid": 41,
+        "Changes": 22,
+        "Decisions": 91,
+        "PlanningNS": 2581414200,
+        "PlanningSamples": 11648,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 268646500,
+        "Shiyi": 595,
+        "Turns": 53,
+        "Paid": 33,
+        "Changes": 21,
+        "Decisions": 167,
+        "PlanningNS": 16028425500,
+        "PlanningSamples": 21376,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51754700,
+        "Shiyi": 335,
+        "Turns": 29,
+        "Paid": 39,
+        "Changes": 25,
+        "Decisions": 108,
+        "PlanningNS": 3360519500,
+        "PlanningSamples": 13824,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 248801500,
+        "Shiyi": 630,
+        "Turns": 61,
+        "Paid": 24,
+        "Changes": 23,
+        "Decisions": 159,
+        "PlanningNS": 11117315600,
+        "PlanningSamples": 20352,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 52583900,
+        "Shiyi": 340,
+        "Turns": 29,
+        "Paid": 43,
+        "Changes": 30,
+        "Decisions": 107,
+        "PlanningNS": 3159043400,
+        "PlanningSamples": 13696,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 249021000,
+        "Shiyi": 410,
+        "Turns": 35,
+        "Paid": 27,
+        "Changes": 14,
+        "Decisions": 99,
+        "PlanningNS": 8459993300,
+        "PlanningSamples": 12672,
+        "CountDecisions": 0
+      }
+    ],
+    [
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 51135800,
+        "Shiyi": 410,
+        "Turns": 36,
+        "Paid": 40,
+        "Changes": 28,
+        "Decisions": 115,
+        "PlanningNS": 3627998800,
+        "PlanningSamples": 14720,
+        "CountDecisions": 0
+      },
+      {
+        "ExactDecisions": 0,
+        "UnsampledDecisions": 0,
+        "MaxPlanningNS": 247595400,
+        "Shiyi": 440,
+        "Turns": 39,
+        "Paid": 30,
+        "Changes": 12,
+        "Decisions": 121,
+        "PlanningNS": 8799039600,
+        "PlanningSamples": 15488,
+        "CountDecisions": 0
+      }
+    ]
+  ],
+  "exact_limit": 6,
+  "exact_nodes": 100000,
+  "free": 1,
+  "go_version": "go1.26.0",
+  "gomaxprocs": 32,
+  "init": 0,
+  "initial_state": {
+    "candidates": null,
+    "collected": [
+      3,
+      110
+    ],
+    "cost": 8,
+    "displayed": null,
+    "eligible": [
+      3,
+      4,
+      19,
+      20,
+      23,
+      25,
+      26,
+      33,
+      35,
+      36,
+      41,
+      42,
+      43,
+      46,
+      48,
+      49,
+      50,
+      53,
+      55,
+      61,
+      64,
+      67,
+      70,
+      71,
+      72,
+      73,
+      77,
+      78,
+      83,
+      90,
+      91,
+      92,
+      97,
+      98,
+      100,
+      107,
+      108,
+      109,
+      110,
+      115,
+      116,
+      119,
+      171,
+      172,
+      207,
+      299,
+      346,
+      353,
+      369,
+      371,
+      374,
+      398,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418
+    ],
+    "free_limit": 1,
+    "free_remaining": 1,
+    "lingxi": 41,
+    "off_run": 0,
+    "prev_id": 110,
+    "seen_poets": [
+      1,
+      109
+    ]
+  },
+  "inner": 8,
+  "library_sha256": "8f6ea2540d3dea6d9dddb3c34510540ad318a7fdac3632434edd12d89d30bf85",
+  "lingxi": 25,
+  "max_samples": 0,
+  "mixed": false,
+  "multi_two_step": false,
+  "n": 200,
+  "objective": "shiyi-first",
+  "policy_samples": 32,
+  "reference_critic": "",
+  "reference_critic_sha256": "",
+  "reference_objective": "shiyi-first",
+  "reference_policy_samples": 32,
+  "reference_samples": 128,
+  "rollout": {
+    "changed": 17.150000000000002,
+    "mean": 49.15500000000001,
+    "p5": 35,
+    "p50": 48,
+    "p95": 63,
+    "paid": 28.17000000000001,
+    "shiyi_mean": 528.4000000000002
+  },
+  "rules": {
+    "draw_mode": "round",
+    "middle_clears_run": false,
+    "min_candidates": 1,
+    "pay_on_entry": true,
+    "refresh_cost": 1
+  },
+  "samples": 128,
+  "seconds": 248.7148262,
+  "seed": 42,
+  "shiyi_ci95_normal_approx": [
+    38.56135139965679,
+    70.8886486003432
+  ],
+  "shiyi_delta": 54.725,
+  "snapshot": "screenshots/jiji-research-20260906/runtime-main.json",
+  "stop_depth": 0,
+  "stop_samples": 8,
+  "strategies": [
+    {
+      "NetGainWeight": 31.84,
+      "RhymeBonus": 234.84,
+      "XiangZhanBonus": 4.36,
+      "NewPoetBonus": 0,
+      "RefreshPoetBonus": 246.83,
+      "RichThreshold": 0,
+      "RichBonus": 20.74,
+      "SwitchThreshPct": 0.1947,
+      "TargetPoolWeight": 0.829,
+      "TargetNewPoetWeight": 8,
+      "MinTargetPool": 2,
+      "MiddleBonus": 0,
+      "RefreshGainFloor": 0.8752,
+      "LowLingxiFloor": 5,
+      "ShiyiWeight": 5.09,
+      "OffRhymePenalty": 50,
+      "RefreshCost": 1,
+      "DryGroupFloor": 9,
+      "OffRhymeRespectsGate": false,
+      "ExactStopRefresh": false,
+      "StopMargin": 0
+    },
+    {
+      "NetGainWeight": 31.84,
+      "RhymeBonus": 234.84,
+      "XiangZhanBonus": 4.36,
+      "NewPoetBonus": 0,
+      "RefreshPoetBonus": 246.83,
+      "RichThreshold": 0,
+      "RichBonus": 20.74,
+      "SwitchThreshPct": 0.1947,
+      "TargetPoolWeight": 0.829,
+      "TargetNewPoetWeight": 8,
+      "MinTargetPool": 2,
+      "MiddleBonus": 0,
+      "RefreshGainFloor": 0.8752,
+      "LowLingxiFloor": 5,
+      "ShiyiWeight": 5.09,
+      "OffRhymePenalty": 50,
+      "RefreshCost": 1,
+      "DryGroupFloor": 9,
+      "OffRhymeRespectsGate": false,
+      "ExactStopRefresh": true,
+      "StopMargin": 0
+    }
+  ],
+  "terminal_policy": false,
+  "two_step": false,
+  "width": 16,
+  "workers": 16,
+  "z": 1
+}
